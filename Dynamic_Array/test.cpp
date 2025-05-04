@@ -8,7 +8,7 @@
 
 int main() {
     // Test 1: Create an array with a fixed size
-    Array<int> arr1(5);
+    Darray<int> arr1(5);
     std::cout << "Array1 created with size: " << arr1.getSize() << std::endl;
 
     // Test 2: Set values
@@ -21,13 +21,13 @@ int main() {
     arr1.display();
 
     // Test 3: Get values
-    std::cout << "Value at index 2: " << arr1.get(2) << std::endl;  // Should print 30
-    std::cout << "Value at index 4: " << arr1.get(4) << std::endl;  // Should print 50
+    std::cout << "Value at index 2: " << arr1.getValue(2) << std::endl;  // Should print 30
+    std::cout << "Value at index 4: " << arr1.getValue(4) << std::endl;  // Should print 50
 
     // Test 4: Negative index handling (set and get)
     arr1.set(-1, 60); // Set value at the last position using negative index
     std::cout <<"Setting Array1[-1] to 60"<<std::endl
-              << "Value at index -1: " << arr1.get(-1) << std::endl;  // Should print 60
+              << "Value at index -1: " << arr1.getValue(-1) << std::endl;  // Should print 60
 
     // Test 5: Remove a value
     arr1.remove(2);  // Remove value at index 2
@@ -36,14 +36,14 @@ int main() {
 
 
     // Test 6: Merge two arrays
-    Array<int> arr2(3);
+    Darray<int> arr2(3);
     arr2.set(0, 100);
     arr2.set(1, 200);
     arr2.set(2, 300);
     std::cout << "Second array: ";
     arr2.display();
 
-    Array<int> mergedArr = arr1.merge(arr2);
+    Darray<int> mergedArr = arr1.merge(arr2);
     std::cout << "Merged array: ";
     mergedArr.display();
 
@@ -52,7 +52,23 @@ int main() {
     std::cout << "Setting a value out of bounds: "<<std::endl;
     arr1.set(-10 , 20);
     std::cout << "Getting a value out of bounds: "<<std::endl;
-    arr1.get(-10 );
+    arr1.getValue(-10 );
+
+
+    // Test 8: Extend Test
+    std::cout <<"Array1 size is: " <<arr1.getSize()<<std::endl;
+    arr1.extend(20);
+    std::cout <<"Array1 new size is: "<< arr1.getSize()<<std::endl;
+    // arr1.extend(10); //Shows an error
+
+    // Test 9: Insert At test
+    std::cout<<"Array 1 before insertion : ";
+    arr1.display();
+    arr1.insertAt(2 ,12);
+    std::cout<<"Array 1 after insertion : ";
+    arr1.display();
 
     return 0;
 }
+
+
