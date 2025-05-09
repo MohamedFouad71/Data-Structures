@@ -17,19 +17,22 @@ private:
     node<t> *first;
     node<t> *last;
     int length;
-
 public:
     SinglyLinkedList();
     ~SinglyLinkedList();
 
-    void display();
-    int getLength();
-    bool isEmpty();
+    void display() const;
+    int getLength() const;
+    bool isEmpty() const;
     void setAt(int index, t value);
     void insertFirst(t value);
     void insertLast(t value);
     void insertAt(int index, t value);
+    void removeFirst();
+    void removeLast();
     void removeAt(int index);
+    t getAt(int index) const;
+    SinglyLinkedList operator+(const SinglyLinkedList &otherList);
 };
 
 #include "SinglyLinkedList.tpp"
