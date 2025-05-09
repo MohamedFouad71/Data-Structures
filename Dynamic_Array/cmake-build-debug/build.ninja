@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: BasicDataStructures
+# Project: DynamicArray
 # Configurations: Debug
 # =============================================================================
 
@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = E$:/My_GitHub_Repos/Data_Structures/Dynamic_Array/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target BasicDataStructures
+# Object build statements for EXECUTABLE target DynamicArray
 
 
 #############################################
-# Order-only phony target for BasicDataStructures
+# Order-only phony target for DynamicArray
 
-build cmake_object_order_depends_target_BasicDataStructures: phony || .
+build cmake_object_order_depends_target_DynamicArray: phony || .
 
-build CMakeFiles/BasicDataStructures.dir/test.cpp.obj: CXX_COMPILER__BasicDataStructures_unscanned_Debug E$:/My_GitHub_Repos/Data_Structures/Dynamic_Array/test.cpp || cmake_object_order_depends_target_BasicDataStructures
-  DEP_FILE = CMakeFiles\BasicDataStructures.dir\test.cpp.obj.d
+build CMakeFiles/DynamicArray.dir/test.cpp.obj: CXX_COMPILER__DynamicArray_unscanned_Debug E$:/My_GitHub_Repos/Data_Structures/Dynamic_Array/test.cpp || cmake_object_order_depends_target_DynamicArray
+  DEP_FILE = CMakeFiles\DynamicArray.dir\test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\BasicDataStructures.dir
-  OBJECT_FILE_DIR = CMakeFiles\BasicDataStructures.dir
+  OBJECT_DIR = CMakeFiles\DynamicArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\DynamicArray.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target BasicDataStructures
+# Link build statements for EXECUTABLE target DynamicArray
 
 
 #############################################
-# Link the executable BasicDataStructures.exe
+# Link the executable DynamicArray.exe
 
-build BasicDataStructures.exe: CXX_EXECUTABLE_LINKER__BasicDataStructures_Debug CMakeFiles/BasicDataStructures.dir/test.cpp.obj
+build DynamicArray.exe: CXX_EXECUTABLE_LINKER__DynamicArray_Debug CMakeFiles/DynamicArray.dir/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\BasicDataStructures.dir
+  OBJECT_DIR = CMakeFiles\DynamicArray.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = BasicDataStructures.exe
-  TARGET_IMPLIB = libBasicDataStructures.dll.a
-  TARGET_PDB = BasicDataStructures.exe.dbg
+  TARGET_FILE = DynamicArray.exe
+  TARGET_IMPLIB = libDynamicArray.dll.a
+  TARGET_PDB = DynamicArray.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build BasicDataStructures: phony BasicDataStructures.exe
+build DynamicArray: phony DynamicArray.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build BasicDataStructures: phony BasicDataStructures.exe
 #############################################
 # Folder: E:/My_GitHub_Repos/Data_Structures/Dynamic_Array/cmake-build-debug
 
-build all: phony BasicDataStructures.exe
+build all: phony DynamicArray.exe
 
 # =============================================================================
 # Built-in targets

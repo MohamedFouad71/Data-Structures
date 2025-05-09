@@ -59,7 +59,7 @@ int main() {
     std::cout <<"Array1 size is: " <<arr1.getSize()<<std::endl;
     arr1.extend(20);
     std::cout <<"Array1 new size is: "<< arr1.getSize()<<std::endl;
-    // arr1.extend(10); //Shows an error
+    arr1.extend(10); //Shows an error
 
     // Test 9: Insert At test
     std::cout<<"Array 1 before insertion : ";

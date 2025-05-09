@@ -1,0 +1,25 @@
+# ninja log v6
+10	849	7680761364628577	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+850	1028	7680761373013360	LinkedList.exe	ef4621351d4342c
+11	848	7680761684394589	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+848	1019	7680761692758922	LinkedList.exe	ef4621351d4342c
+13	759	7680764552300241	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+760	895	7680764559766866	LinkedList.exe	ef4621351d4342c
+15	829	7680764633922749	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+830	943	7680764642062069	LinkedList.exe	ef4621351d4342c
+12	742	7680765005744691	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+743	896	7680765013044109	LinkedList.exe	ef4621351d4342c
+9	826	7680765115303347	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+826	995	7680765123472654	LinkedList.exe	ef4621351d4342c
+10	826	7680767464702273	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+826	934	7680767472858506	LinkedList.exe	ef4621351d4342c
+10	822	7680767523028361	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+823	1009	7680767531157641	LinkedList.exe	ef4621351d4342c
+9	814	7680768764668352	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+815	996	7680768772732063	LinkedList.exe	ef4621351d4342c
+9	781	7680770159477587	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+782	959	7680770167206898	LinkedList.exe	ef4621351d4342c
+9	708	7680770292777710	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+709	831	7680770299762319	LinkedList.exe	ef4621351d4342c
+10	808	7680770671213479	CMakeFiles/LinkedList.dir/main.cpp.obj	d22cb3cd7bf8d900
+808	965	7680770679205793	LinkedList.exe	ef4621351d4342c
