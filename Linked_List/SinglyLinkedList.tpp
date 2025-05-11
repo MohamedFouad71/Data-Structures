@@ -22,7 +22,7 @@ SinglyLinkedList<t>::~SinglyLinkedList() {
 template<typename t>
 void SinglyLinkedList<t>::display() const{
 
-    std::cout << "[";
+    std::cout << "[ ";
 
     node<t>* temp = first;
     while (temp != nullptr) {
@@ -33,7 +33,7 @@ void SinglyLinkedList<t>::display() const{
         temp = temp->next;
     }
 
-    std::cout << "]\n";
+    std::cout << " ]\n";
 }
 
 template<typename t>
