@@ -20,6 +20,7 @@ private:
 
 public:
     DoublyLinkedList();
+    ~DoublyLinkedList();
     bool isEmpty() const;
     int getLength() const;
     void display() const;

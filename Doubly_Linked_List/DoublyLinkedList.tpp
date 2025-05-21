@@ -11,6 +11,16 @@ DoublyLinkedList<t>::DoublyLinkedList() {
         length =0;
 }
 
+template<typename t>
+DoublyLinkedList<t>::~DoublyLinkedList(){
+        node *current = first;
+        while (current != nullptr){
+                node *next = current->next;
+                delete current;
+                current = next;
+        }
+}
+
 template<class t>
 bool DoublyLinkedList<t>::isEmpty() const {return length == 0;}
 
