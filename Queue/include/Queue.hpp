@@ -7,10 +7,12 @@ class Queue{
     T *arr;
     
     public:
-    Queue(int size = 100);
+    explicit Queue(int size = 100);
     ~Queue();
-    bool isEmpty();
-    int size();
+    bool isEmpty() const;
+    bool isFull() const;
+    int getCapacity() const;
+    int getLength() const;
     void enqueue(T item);
     T dequeue();
 };

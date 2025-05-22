@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Queue.hpp
+Queue.tpp
+../include/Queue.tpp
+
+../include/Queue.tpp
+iostream
+-
+optional
+-
+
+/workspaces/Data-Structures/Queue/src/test.cpp
+iostream
+-
+Queue.hpp
+/workspaces/Data-Structures/Queue/src/Queue.hpp
+

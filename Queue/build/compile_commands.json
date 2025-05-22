@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/Data-Structures/Queue/build",
+  "command": "/usr/bin/c++   -I/workspaces/Data-Structures/Queue/include  -g   -std=gnu++17 -o CMakeFiles/queue_test.dir/src/test.cpp.o -c /workspaces/Data-Structures/Queue/src/test.cpp",
+  "file": "/workspaces/Data-Structures/Queue/src/test.cpp"
+}
+]

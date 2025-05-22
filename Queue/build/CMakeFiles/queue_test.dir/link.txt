@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/queue_test.dir/src/test.cpp.o  -o queue_test 

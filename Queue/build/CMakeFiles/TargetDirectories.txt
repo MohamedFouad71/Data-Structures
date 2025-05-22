@@ -1,0 +1,3 @@
+/workspaces/Data-Structures/Queue/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Data-Structures/Queue/build/CMakeFiles/edit_cache.dir
+/workspaces/Data-Structures/Queue/build/CMakeFiles/queue_test.dir
