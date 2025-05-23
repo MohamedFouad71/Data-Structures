@@ -11,6 +11,11 @@ DoublyLinkedList<t>::DoublyLinkedList() {
         length =0;
 }
 
+template<typename t>
+DoublyLinkedList<t>::~DoublyLinkedList() {
+        node
+}
+
 template<class t>
 bool DoublyLinkedList<t>::isEmpty() const {return length == 0;}
 
@@ -119,4 +124,10 @@ void DoublyLinkedList<t>::insertAt(int index, t val) {
         }
 
         length++;
+}
+
+template<class t>
+void DoublyLinkedList<t>::reverse() {
+
+        
 }

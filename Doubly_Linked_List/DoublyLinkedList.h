@@ -20,12 +20,14 @@ private:
 
 public:
     DoublyLinkedList();
+    ~DoublyLinkedList();
     bool isEmpty() const;
     int getLength() const;
     void display() const;
     void insertFirst(t value);
     void insertLast(t value);
     void insertAt(int index , t value);
+    void reverse();
 };
 
 
