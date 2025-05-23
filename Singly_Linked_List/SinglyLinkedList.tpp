@@ -15,6 +15,12 @@ SinglyLinkedList<t>::SinglyLinkedList() : first(nullptr) , last(nullptr) , lengt
 
 template<typename t>
 SinglyLinkedList<t>::~SinglyLinkedList() {
+        node *current = first;
+        while (current != nullptr){
+                node *next = current->next;
+                delete current;
+                current = next;
+        }
 
 }
 // ------------------------------------ Display --------------------------------------------
