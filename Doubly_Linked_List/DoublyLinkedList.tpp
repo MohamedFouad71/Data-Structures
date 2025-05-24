@@ -12,10 +12,6 @@ DoublyLinkedList<t>::DoublyLinkedList() {
 }
 
 template<typename t>
-<<<<<<< HEAD
-DoublyLinkedList<t>::~DoublyLinkedList() {
-        node
-=======
 DoublyLinkedList<t>::~DoublyLinkedList(){
         node *current = first;
         while (current != nullptr){
@@ -23,7 +19,6 @@ DoublyLinkedList<t>::~DoublyLinkedList(){
                 delete current;
                 current = next;
         }
->>>>>>> 79b2029d453cc68b027cff60f2bfdbddacfd398d
 }
 
 template<class t>
