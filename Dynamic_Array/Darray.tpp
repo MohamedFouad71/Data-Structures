@@ -1,6 +1,6 @@
 #include <Cmath>
 
-#include "Darray.h"
+// #include "Darray.hpp"
 
 template <typename t>
 Darray<t>::Darray(int arrSize){
@@ -58,7 +58,7 @@ t Darray<t>::getValue (int index) const {
         return accessingPtr[size + index];
     else {
         std::cerr << "index out of bounds" << std::endl;
-        return NAN;
+        return t();
     }
 }
 

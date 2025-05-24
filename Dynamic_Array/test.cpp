@@ -4,7 +4,7 @@
 // If you encounter any other issues, feel free to contact me.
 
 #include <iostream>
-#include "Darray.H"
+#include "Darray.hpp"
 
 int main() {
     // Test 1: Create an array with a fixed size
